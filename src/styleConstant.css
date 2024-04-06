@@ -1,0 +1,11 @@
+:root {
+    --common-color: #eb273b;
+    --header-height: 50px;
+    --logo-background: #ffffff;
+    --logo-width: 100px;
+    --logo-height: 36px;
+    --search-box-font: 18px;
+    --black-color:#000000;
+    --loader-color:#443a3a1c;
+    --page-background:#000000c7
+}

@@ -1,0 +1,11 @@
+.input-box{
+    border-radius: 5px;
+    border: 0px;
+    box-sizing: border-box;
+    font-size: var(--search-box-font);
+    height: var(--logo-height);
+    outline: none;
+    padding: 0 10px;
+    width: 30%;
+    height: 40px;
+}

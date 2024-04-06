@@ -1,0 +1,15 @@
+@import '../styleConstant.css';
+
+.home-container{
+    background-image: url('../Assets/comic_char.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.home-wrapper{
+    background-color:var(--page-background);
+    padding-bottom:10px;
+    min-height: 100vh;
+}
