@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6303f935.css",
+    "main.js": "/static/js/main.55c108f8.js",
+    "static/media/ironman-marvel.gif": "/static/media/ironman-marvel.17eda8e570ba9965c0f6.gif",
+    "static/media/comic_char.jpg": "/static/media/comic_char.30083cdef43772b4faa2.jpg",
+    "static/media/headerlogo.png": "/static/media/headerlogo.941f6e80fdff174201ac.png",
+    "index.html": "/index.html",
+    "main.6303f935.css.map": "/static/css/main.6303f935.css.map",
+    "main.55c108f8.js.map": "/static/js/main.55c108f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6303f935.css",
+    "static/js/main.55c108f8.js"
+  ]
+}
