@@ -18,4 +18,8 @@ Start the project:
 
 Access the application by opening your web browser and going to localhost:3000.
 
-I have added my API key, no need to do extra configugration 
+I have added my API key, no need to do extra configuration.
+
+
+        I added a test case just to show that I can do unit testing. For demonstration, I included one unit test for a component with API mock and another one for functional testing.
+
