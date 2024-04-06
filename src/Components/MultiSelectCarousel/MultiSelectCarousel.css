@@ -1,0 +1,111 @@
+@import '../../styleConstant.css';
+.carousel-disable{
+  pointer-events: none;
+}
+.carousel-disable .carousel-wrapper{
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.5;
+}
+.carousel-wrapper{
+  width: 100%;
+  background-color:var(--black-color);
+  opacity: 0.95;
+}
+.carousel-container {
+  text-align: center;
+  width: 81%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+  opacity: 1;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%; 
+}
+
+.next-btn, .prev-btn{
+  width: 45px;
+  height: 45px;
+  background: var(--header-color);
+  border-radius: 50%;
+  font-size: 32px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+}
+.prev-btn{
+  left: 0;
+  right: auto;
+}
+
+.carousel-item {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+.carousel-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%
+}
+
+.carousel-item.selected {
+  background-color: #cceeff;
+}
+
+
+.next-btn {
+  right: 0;
+}
+
+.selected-comics-banner{
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.selected-comics-banner .selected-comics{
+  color: #ffffff;
+}
+.selected-comics-banner button{
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+}
+
+
+@media screen and (max-width: 992px) {
+  .carousel-item {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .carousel-item {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .carousel-item {
+    height: 110px;
+    width: 110px;
+  }
+}
+
+
+

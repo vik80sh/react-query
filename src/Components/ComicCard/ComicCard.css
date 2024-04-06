@@ -1,0 +1,19 @@
+.comic-wrapper{
+    width: 100%;
+    /* background-color:var(--black-color);
+    opacity: 0.85; */
+}
+.comic-list{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    row-gap: 25px;
+    flex-wrap: wrap;
+    padding-top: 25px
+}
+.comic-card{
+    width: 32%
+}
+

@@ -1,0 +1,15 @@
+@import '../../styleConstant.css';
+
+.header-conatiner{
+    background-color: var(--header-color);
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+.header-conatiner img{
+    background: var(--logo-background);
+    height: var(--logo-height);
+    width: var(--logo-width);
+}
